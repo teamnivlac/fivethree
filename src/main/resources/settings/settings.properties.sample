@@ -1,2 +1,4 @@
-hostedZoneID:
-subdomain:
+hostedZoneID=
+domain=
+ttl=300
+lastKnownIp=
