@@ -45,6 +45,8 @@ public class DefaultController {
 				new ClasspathPropertiesFileCredentialsProvider("/credentials/credentials.properties"));
 		System.out.println("Sending request");
 		ChangeResourceRecordSetsResult response = client.changeResourceRecordSets(request);
+		
+		response.getChangeInfo();
 		System.out.println(response.toString());
 	}
 }
