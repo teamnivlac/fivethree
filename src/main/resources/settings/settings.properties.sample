@@ -1,4 +1,6 @@
-hostedZoneID=
-domain=
+hostedZoneId=00000000000000
+domain=example.com
 ttl=300
-lastKnownIp=
+lastKnownIp=0.0.0.0
+ipCheckIntervalSeconds=300
+region=us-east-1
