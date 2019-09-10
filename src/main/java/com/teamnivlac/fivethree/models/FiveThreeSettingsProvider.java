@@ -73,7 +73,7 @@ public class FiveThreeSettingsProvider {
 		currentProperties.setProperty("lastKnownIp", this.getLastKnownIp());
 		currentProperties.setProperty("comment", this.getComment());
 		currentProperties.setProperty("ipCheckIntervalSeconds", String.valueOf(this.getIpCheckIntervalSeconds()));
-		currentProperties.setProperty("region", this.getRegion().toString());
+		currentProperties.setProperty("region", this.getRegion().getName());
 
 		return currentProperties;
 	}
